@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://placehold.co/150x150/2d3748/ffffff/png?text=Jarvis+Logo" alt="Jarvis Logo">
+  <img src=""C:\Users\Muhammad Bilal\Pictures\download.jpeg"" alt="Jarvis Logo">
   <h1>Jarvis - Your Personal AI Voice Assistant</h1>
   <p>
     An advanced, voice-controlled AI assistant inspired by Iron Man's Jarvis. Designed to understand, assist, and interact with your Windows PC in real-time.
@@ -132,7 +132,7 @@ After completing the setup, launch the Jarvis agent with this simple command:
 ```bash
 python agent.py console
 
-
+## ▶Project Structure 
 .
 ├── agent.py                  # Main entry point. Initializes and runs the agent.
 ├── Jarvis_prompts.py         # Defines the personality, instructions, and persona of Jarvis.

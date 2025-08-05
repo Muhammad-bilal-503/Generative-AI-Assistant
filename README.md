@@ -136,20 +136,14 @@ python agent.py console
 .
 ├── agent.py                  # Main entry point. Initializes and runs the agent.
 ├── Jarvis_prompts.py         # Defines the personality, instructions, and persona of Jarvis.
-│
-├── 🛠️ Tools (Skills)
-│   ├── Jarvis_google_search.py   # Tool for Google Search and getting current date/time.
-│   ├── jarvis_get_whether.py     # Tool for fetching real-time weather.
-│   ├── Jarvis_news.py            # Tool for fetching the latest news headlines.
-│   ├── Jarvis_vision.py          # Tool for OCR screen reading ("AI Vision").
-│   ├── Jarvis_window_CTRL.py     # Tools for opening/closing apps and managing folders.
-│   ├── Jarvis_file_opner.py      # Tool for finding and opening specific files.
-│   ├── keyboard_mouse_CTRL.py    # All tools related to mouse and keyboard automation.
-│   └── Jarvis_cricket.py         # (Future) Tool for fetching cricket scores.
-│
-├── 📜 Configuration & Logs
-│   ├── .env                    # (You create this) Stores all your secret API keys.
-│   ├── requirements.txt        # Lists all Python dependencies for the project.
-│   └── controller_log.txt      # Logs all mouse/keyboard actions for debugging.
-│
-└── README.md                 # You are reading it!
+├── Jarvis_google_search.py   # Tool for Google Search and getting current date/time.
+├── jarvis_get_whether.py     # Tool for fetching real-time weather.
+├── Jarvis_news.py            # Tool for fetching the latest news headlines.
+├── Jarvis_vision.py          # Tool for OCR screen reading ("AI Vision").
+├── Jarvis_window_CTRL.py     # Tools for opening/closing apps and managing folders.
+├── Jarvis_file_opner.py      # Tool for finding and opening specific files.
+├── keyboard_mouse_CTRL.py    # All tools related to mouse and keyboard automation.
+|── Jarvis_cricket.py         # (Future) Tool for fetching cricket scores.
+├── .env                    # (You create this) Stores all your secret API keys.
+├── requirements.txt        # Lists all Python dependencies for the project.
+|── README.md                 # You are reading it!

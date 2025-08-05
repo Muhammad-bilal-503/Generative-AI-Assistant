@@ -45,6 +45,8 @@ Jarvis is equipped with a versatile set of tools, allowing it to perform numerou
 | 🛠️ **Extensible**        | The tool-based architecture makes it incredibly easy to add new skills and capabilities to Jarvis.                                         |
 | 📝 **Command Logging**    | All keyboard and mouse actions are logged in `controller_log.txt` for debugging and transparency.                                        |
 
+
+
 ## 🛠️ Tech Stack
 
 This project is built using a combination of modern AI technologies and robust Python libraries:
@@ -131,6 +133,16 @@ After completing the setup, launch the Jarvis agent with this simple command:
 
 ```bash
 python agent.py console
+
+## 🛠️ How It Works (Architecture)
+
+The project is built on a modern, agent-based architecture:
+
+1.  **LiveKit Agents Framework:** This is the backbone of the project, handling the real-time audio pipeline (mic input -> STT -> LLM -> TTS -> speaker output) with extremely low latency.
+2.  **Google Gemini Realtime LLM:** This Large Language Model acts as the "brain" of Jarvis. It processes user speech, understands intent, and decides which tool to use.
+3.  **Tool-Based Functionality:** Jarvis's skills are defined as individual Python functions (tools) decorated with `@function_tool`. The LLM intelligently chooses the right tool based on the user's command (e.g., if you say "weather batao," it calls the `get_weather` tool).
+4.  **Custom Persona Prompting:** The personality, language style, and behavior of Jarvis are meticulously defined in `Jarvis_prompts.py`. This prompt guides the LLM to respond in a consistent, Jarvis-like manner.
+5.  **System Interface:** Libraries like `pyautogui`, `pynput`, and `os` are used to create a bridge between the AI's decisions and the computer's operating system, allowing it to perform real-world actions
 
 ## ▶Project Structure 
 .

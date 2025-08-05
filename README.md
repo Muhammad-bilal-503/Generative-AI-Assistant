@@ -1,5 +1,5 @@
 <div align="center">
-  <img src=""C:\Users\Muhammad Bilal\Pictures\download.jpeg"" alt="Jarvis Logo">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI0VCNzCEaCT6KPuVrwClciPTprHVJSLpW3A&s" alt="Jarvis Logo">
   <h1>Jarvis - Your Personal AI Voice Assistant</h1>
   <p>
     An advanced, voice-controlled AI assistant inspired by Iron Man's Jarvis. Designed to understand, assist, and interact with your Windows PC in real-time.

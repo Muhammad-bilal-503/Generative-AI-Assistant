@@ -20,7 +20,7 @@
   </p>
 </div>
 
-![Project Demo](<iframe width="560" height="315" src="https://www.youtube.com/embed/kXe_pFqz27M?si=AYN5Z6vlIzF7vzA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>)
+![Project Demo]([![Alt Text](Thumbnail_URL)](Video_URL))
 *<p align="center"><strong>(Important: Replace the image above with a GIF or video demonstrating Jarvis in action!)</strong></p>*
 
 ---

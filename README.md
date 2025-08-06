@@ -20,7 +20,7 @@
   </p>
 </div>
 
-![Project Demo](https://youtu.be/kXe_pFqz27M)
+![Project Demo](https://youtu.be/kXe_pFqz27M?si=rPSsJuyUbqYBlp17)
 *<p align="center"><strong>(Important: Replace the image above with a GIF or video demonstrating Jarvis in action!)</strong></p>*
 
 ---

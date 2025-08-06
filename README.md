@@ -127,14 +127,7 @@ Ensure you have the following installed:
         pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
         ```
 
-## ▶️ How to Run
-
-After completing the setup, launch the Jarvis agent with this simple command:
-
-```bash
-python agent.py console
-
-## 🛠️ How It Works (Architecture)
+        ## 🛠️ How It Works (Architecture)
 
 The project is built on a modern, agent-based architecture:
 
@@ -143,6 +136,15 @@ The project is built on a modern, agent-based architecture:
 3.  **Tool-Based Functionality:** Jarvis's skills are defined as individual Python functions (tools) decorated with `@function_tool`. The LLM intelligently chooses the right tool based on the user's command (e.g., if you say "weather batao," it calls the `get_weather` tool).
 4.  **Custom Persona Prompting:** The personality, language style, and behavior of Jarvis are meticulously defined in `Jarvis_prompts.py`. This prompt guides the LLM to respond in a consistent, Jarvis-like manner.
 5.  **System Interface:** Libraries like `pyautogui`, `pynput`, and `os` are used to create a bridge between the AI's decisions and the computer's operating system, allowing it to perform real-world actions
+
+## ▶️ How to Run
+
+After completing the setup, launch the Jarvis agent with this simple command:
+
+```bash
+python agent.py console
+
+
 
 ## ▶Project Structure 
 .

@@ -12,6 +12,7 @@ from jarvis_get_whether import get_weather
 from Jarvis_window_CTRL import open_app, close, folder_file
 from Jarvis_file_opner import Play_file
 from Jarvis_news import get_latest_news
+from Jarvis_cricket import get_live_cricket_score, get_cricket_schedule
 from Jarvis_vision import read_current_screen
 from keyboard_mouse_CTRL import move_cursor_tool, mouse_click_tool, scroll_cursor_tool, type_text_tool, press_key_tool, swipe_gesture_tool, press_hotkey_tool, control_volume_tool
 load_dotenv()
@@ -24,21 +25,22 @@ class Assistant(Agent):
                             google_search,
                             get_current_datetime,
                             get_weather,
-                            open_app, #ये apps ओपन करने के लिए हैं
+                            open_app, 
                             get_latest_news,
                             read_current_screen,
                             close, 
-                            
-                            folder_file, #ये folder ओपन करने के लिए है
-                            Play_file,  #ये file रन करने के लिए है जैसे कि MP4, MP3, PDF, PPT, img, png etc.
-                            move_cursor_tool, #ये cursor move करने के लिए है
-                            mouse_click_tool, #ये mouse click करने के लिए है
-                            scroll_cursor_tool, #ये cursor scroll करने के लिए है
-                            type_text_tool, #ये text type करने के लिए है
-                            press_key_tool, #ये key press करने के लिए है
-                            press_hotkey_tool, #ये hotkey press करने के लिए है
-                            control_volume_tool, #ये volume control करने के लिए है
-                            swipe_gesture_tool #ये gesture wipe करने के लिए है 
+                            get_live_cricket_score,   
+                            get_cricket_schedule,  
+                            folder_file, #folder
+                            Play_file,  #file  MP4, MP3, PDF, PPT, img, png etc.
+                            move_cursor_tool, #cursor move 
+                            mouse_click_tool, # mouse click 
+                            scroll_cursor_tool, #cursor scroll 
+                            type_text_tool, # text type 
+                            press_key_tool, #key press 
+                            press_hotkey_tool, # hotkey press 
+                            control_volume_tool, #volume control 
+                            swipe_gesture_tool #gesture wipe 
                          ]
                          )
 
@@ -68,4 +70,5 @@ async def entrypoint(ctx: agents.JobContext):
 
 if __name__ == "__main__":
     agents.cli.run_app(agents.WorkerOptions(entrypoint_fnc=entrypoint))
+
 

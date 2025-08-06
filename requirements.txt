@@ -13,4 +13,7 @@ pynput
 python-Levenshtein
 pywin32
 livekit
+pygetwindow
+pytesseract
+pytz
 aiohttp

@@ -20,7 +20,7 @@
   </p>
 </div>
 
-![Project Demo](https://placehold.co/800x400/2d3748/ffffff?text=Add+a+GIF+Demo+of+Your+Project+Here)
+![Project Demo](https://youtu.be/kXe_pFqz27M)
 *<p align="center"><strong>(Important: Replace the image above with a GIF or video demonstrating Jarvis in action!)</strong></p>*
 
 ---

@@ -20,7 +20,7 @@
   </p>
 </div>
 
-![Project Demo]([![Alt Text](Thumbnail_URL)](Video_URL))
+![Project Demo]([![Alt Text](thumbnail.png.png)](https://youtu.be/kXe_pFqz27M?si=tWDRIMHglqcP6tUE))
 *<p align="center"><strong>(Important: Replace the image above with a GIF or video demonstrating Jarvis in action!)</strong></p>*
 
 ---

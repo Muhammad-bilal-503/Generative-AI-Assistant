@@ -79,7 +79,7 @@ Ensure you have the following installed:
 1.  **Clone the Repository:**
     ```bash
     git clone https://github.com/Muhammad-bilal-503/Generative-AI-Assistant
-    cd your-jarvis-repo
+    cd Generative-AI-Assistant
     ```
 
 2.  **Create and Activate a Virtual Environment:**
